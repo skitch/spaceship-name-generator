@@ -7,4 +7,4 @@ with open('adjectives.txt','r') as adj:
 
 
 for i in range(50):
-	print(random.choice(adjectives).capitalize() + " " + random.choice(nouns).capitalize())
+	print("The " + random.choice(adjectives).capitalize() + " " + random.choice(nouns).capitalize())
